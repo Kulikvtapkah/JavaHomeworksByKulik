@@ -1,7 +1,7 @@
-/*Реализовать простой калькулятор (+ - / *)
-Ввод числа ->
-Ввод знака ->
-Ввод числа -> */
+/*
+Напишите метод, который принимает на вход строку (String) 
+и определяет является ли строка палиндромом (возвращает boolean значение).
+*/
 
 package JavaHomeworksByKulik.Homework2;
 
@@ -13,87 +13,30 @@ import java.io.IOException;
 
 public class JavaHmw2_3 {
     public static void main(String[] args) throws IOException {
-        Logger calcLogger = Logger.getLogger(JavaHmw2_3.class.getName());
-        FileHandler calcHandler = new FileHandler("calcLog.txt");
-        calcLogger.addHandler(calcHandler);
-        SimpleFormatter easyFormat = new SimpleFormatter();
-        calcHandler.setFormatter(easyFormat);
-        char calc = 'y';
-        calcLogger.info("Calc is on");
-        System.out.println("Посчитаем!");
-        while (calc != 'n') {
-            float n1 = getNumber();
-            char sign = getOperation();
-            float n2 = getNumber();
-            calcLogger.info(calculations(n1, n2, sign));    
-            calc = calcOnOff(calc);
-            
+        Scanner strigScan = new Scanner(System.in);
+        System.out.println("Введите строку, вдруг это палиндром >>");
+        String stringToTest = strigScan.nextLine();
+
+        if (isPalindrom(stringToTest)) {
+            System.out.println("Ура! Это палиндром!");
         }
-        System.out.println("Пока!");
-        calcLogger.info("Calc is off");
+        else{
+            System.out.println("Не палиндром, зато как красиво сказано...");
+        }
     }
 
-    
-    public static float getNumber() {
-        System.out.print("Введите число >> ");
-        boolean test = false;
-        float n = 0;
-
-        while (test == false) {
-            try {
-                Scanner numInput = new Scanner(System.in);
-                n = numInput.nextFloat();
-                test = true;
-                // numInput.close();
-            } catch (Exception e) {
-                System.out.print("Вести подсчеты в символах - такое себе...\n Все таки нужно число >> ");
+    public static boolean isPalindrom(String line) {
+        boolean result = true;
+        StringBuilder builtLine = new StringBuilder(line);
+        int i = 0;
+        while (i < builtLine.length() / 2 && result == true) {
+            if (builtLine.charAt(i) == builtLine.charAt(builtLine.length() - i - 1)) {
+                i++;
+            } else {
+                result = false;
             }
         }
-        return n;
-    }
-
-    public static char getOperation() throws IOException {
-        System.out.print("Введите знак (+; -; / или *) >> ");
-        char s = '+';
-        boolean test = false;
-        while (test == false) {
-            s = (char) System.in.read();
-            if (s == '+' || s == '*' || s == '/' || s == '-') {
-                test = true;
-            } else
-                System.out.print("Вряд ли это знак +; -; / или *\nПопробуйте снова >> ");
-        }
-
-        return s;
-    }
-
-    public static String calculations(float n1, float n2, char s) {
-        float result = 0;
-        switch (s) {
-            case '+':
-                result = n1 + n2;
-                break;
-            case '-':
-                result = n1 - n2;
-                break;
-            case '*':
-                result = n1 * n2;
-                break;
-            case '/':
-                result = n1 / n2;
-                break;
-
-        }
-        System.out.printf(" %s %s %s = %s \n", n1, s, n2, result);
-        return String.format(" %s %s %s = %s \n", n1, s, n2, result);
-
-
-    }
-
-    public static char calcOnOff(char calcState) throws IOException {
-        System.out.print(
-                "\nЕще посчитаем?\nВведите любой символ, чтобы продолжить, или \"n\", чтобы выключить калькулятор >> ");
-        calcState = (char) System.in.read();
-        return calcState;
+        System.out.println(result);
+        return result;
     }
 }

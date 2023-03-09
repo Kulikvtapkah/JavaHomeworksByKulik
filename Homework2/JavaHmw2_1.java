@@ -13,7 +13,7 @@ public class JavaHmw2_1 {
     public static void main(String[] args) throws IOException {
 
         Logger bubleLogger = Logger.getLogger(JavaHmw2_1.class.getName());
-        FileHandler bulHandler = new FileHandler("bubleLog.txt");
+        FileHandler bulHandler = new FileHandler("JavaHomeworksByKulik/bubleLog.txt");
         bubleLogger.addHandler(bulHandler);
         SimpleFormatter easyFormat = new SimpleFormatter();
         bulHandler.setFormatter(easyFormat);

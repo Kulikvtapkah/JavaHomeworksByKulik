@@ -1,0 +1,16 @@
+��� 09, 2023 7:30:36 PM JavaHomeworksByKulik.Homework2.JavaHmw2_4 main
+INFO: Calc is on
+��� 09, 2023 7:30:56 PM JavaHomeworksByKulik.Homework2.JavaHmw2_4 main
+INFO:  17.0 * 1278.0 = 21726.0 
+
+��� 09, 2023 7:31:44 PM JavaHomeworksByKulik.Homework2.JavaHmw2_4 main
+INFO:  0.577 - -123.0 = 123.577 
+
+��� 09, 2023 7:32:25 PM JavaHomeworksByKulik.Homework2.JavaHmw2_4 main
+INFO:  -6688.899 / 5.0 = -1337.7798 
+
+��� 09, 2023 7:32:41 PM JavaHomeworksByKulik.Homework2.JavaHmw2_4 main
+INFO:  6.0 / 0.0 = Infinity 
+
+��� 09, 2023 7:32:49 PM JavaHomeworksByKulik.Homework2.JavaHmw2_4 main
+INFO: Calc is off

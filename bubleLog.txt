@@ -1,0 +1,78 @@
+��� 09, 2023 7:27:55 PM JavaHomeworksByKulik.Homework2.JavaHmw2_1 main
+INFO: [8, 500, 18, 3, 55, 90, 0, -200, -15, 66, -1000]
+��� 09, 2023 7:27:55 PM JavaHomeworksByKulik.Homework2.JavaHmw2_1 main
+INFO: [8, 18, 500, 3, 55, 90, 0, -200, -15, 66, -1000]
+��� 09, 2023 7:27:55 PM JavaHomeworksByKulik.Homework2.JavaHmw2_1 main
+INFO: [8, 18, 3, 500, 55, 90, 0, -200, -15, 66, -1000]
+��� 09, 2023 7:27:55 PM JavaHomeworksByKulik.Homework2.JavaHmw2_1 main
+INFO: [8, 18, 3, 55, 500, 90, 0, -200, -15, 66, -1000]
+��� 09, 2023 7:27:55 PM JavaHomeworksByKulik.Homework2.JavaHmw2_1 main
+INFO: [8, 18, 3, 55, 90, 500, 0, -200, -15, 66, -1000]
+��� 09, 2023 7:27:55 PM JavaHomeworksByKulik.Homework2.JavaHmw2_1 main
+INFO: [8, 18, 3, 55, 90, 0, 500, -200, -15, 66, -1000]
+��� 09, 2023 7:27:55 PM JavaHomeworksByKulik.Homework2.JavaHmw2_1 main
+INFO: [8, 18, 3, 55, 90, 0, -200, 500, -15, 66, -1000]
+��� 09, 2023 7:27:55 PM JavaHomeworksByKulik.Homework2.JavaHmw2_1 main
+INFO: [8, 18, 3, 55, 90, 0, -200, -15, 500, 66, -1000]
+��� 09, 2023 7:27:55 PM JavaHomeworksByKulik.Homework2.JavaHmw2_1 main
+INFO: [8, 18, 3, 55, 90, 0, -200, -15, 66, 500, -1000]
+��� 09, 2023 7:27:55 PM JavaHomeworksByKulik.Homework2.JavaHmw2_1 main
+INFO: [8, 18, 3, 55, 90, 0, -200, -15, 66, -1000, 500]
+��� 09, 2023 7:27:55 PM JavaHomeworksByKulik.Homework2.JavaHmw2_1 main
+INFO: [8, 3, 18, 55, 90, 0, -200, -15, 66, -1000, 500]
+��� 09, 2023 7:27:55 PM JavaHomeworksByKulik.Homework2.JavaHmw2_1 main
+INFO: [8, 3, 18, 55, 0, 90, -200, -15, 66, -1000, 500]
+��� 09, 2023 7:27:55 PM JavaHomeworksByKulik.Homework2.JavaHmw2_1 main
+INFO: [8, 3, 18, 55, 0, -200, 90, -15, 66, -1000, 500]
+��� 09, 2023 7:27:55 PM JavaHomeworksByKulik.Homework2.JavaHmw2_1 main
+INFO: [8, 3, 18, 55, 0, -200, -15, 90, 66, -1000, 500]
+��� 09, 2023 7:27:55 PM JavaHomeworksByKulik.Homework2.JavaHmw2_1 main
+INFO: [8, 3, 18, 55, 0, -200, -15, 66, 90, -1000, 500]
+��� 09, 2023 7:27:55 PM JavaHomeworksByKulik.Homework2.JavaHmw2_1 main
+INFO: [8, 3, 18, 55, 0, -200, -15, 66, -1000, 90, 500]
+��� 09, 2023 7:27:55 PM JavaHomeworksByKulik.Homework2.JavaHmw2_1 main
+INFO: [3, 8, 18, 55, 0, -200, -15, 66, -1000, 90, 500]
+��� 09, 2023 7:27:55 PM JavaHomeworksByKulik.Homework2.JavaHmw2_1 main
+INFO: [3, 8, 18, 0, 55, -200, -15, 66, -1000, 90, 500]
+��� 09, 2023 7:27:55 PM JavaHomeworksByKulik.Homework2.JavaHmw2_1 main
+INFO: [3, 8, 18, 0, -200, 55, -15, 66, -1000, 90, 500]
+��� 09, 2023 7:27:55 PM JavaHomeworksByKulik.Homework2.JavaHmw2_1 main
+INFO: [3, 8, 18, 0, -200, -15, 55, 66, -1000, 90, 500]
+��� 09, 2023 7:27:55 PM JavaHomeworksByKulik.Homework2.JavaHmw2_1 main
+INFO: [3, 8, 18, 0, -200, -15, 55, -1000, 66, 90, 500]
+��� 09, 2023 7:27:55 PM JavaHomeworksByKulik.Homework2.JavaHmw2_1 main
+INFO: [3, 8, 0, 18, -200, -15, 55, -1000, 66, 90, 500]
+��� 09, 2023 7:27:55 PM JavaHomeworksByKulik.Homework2.JavaHmw2_1 main
+INFO: [3, 8, 0, -200, 18, -15, 55, -1000, 66, 90, 500]
+��� 09, 2023 7:27:55 PM JavaHomeworksByKulik.Homework2.JavaHmw2_1 main
+INFO: [3, 8, 0, -200, -15, 18, 55, -1000, 66, 90, 500]
+��� 09, 2023 7:27:55 PM JavaHomeworksByKulik.Homework2.JavaHmw2_1 main
+INFO: [3, 8, 0, -200, -15, 18, -1000, 55, 66, 90, 500]
+��� 09, 2023 7:27:55 PM JavaHomeworksByKulik.Homework2.JavaHmw2_1 main
+INFO: [3, 0, 8, -200, -15, 18, -1000, 55, 66, 90, 500]
+��� 09, 2023 7:27:55 PM JavaHomeworksByKulik.Homework2.JavaHmw2_1 main
+INFO: [3, 0, -200, 8, -15, 18, -1000, 55, 66, 90, 500]
+��� 09, 2023 7:27:55 PM JavaHomeworksByKulik.Homework2.JavaHmw2_1 main
+INFO: [3, 0, -200, -15, 8, 18, -1000, 55, 66, 90, 500]
+��� 09, 2023 7:27:55 PM JavaHomeworksByKulik.Homework2.JavaHmw2_1 main
+INFO: [3, 0, -200, -15, 8, -1000, 18, 55, 66, 90, 500]
+��� 09, 2023 7:27:55 PM JavaHomeworksByKulik.Homework2.JavaHmw2_1 main
+INFO: [0, 3, -200, -15, 8, -1000, 18, 55, 66, 90, 500]
+��� 09, 2023 7:27:55 PM JavaHomeworksByKulik.Homework2.JavaHmw2_1 main
+INFO: [0, -200, 3, -15, 8, -1000, 18, 55, 66, 90, 500]
+��� 09, 2023 7:27:55 PM JavaHomeworksByKulik.Homework2.JavaHmw2_1 main
+INFO: [0, -200, -15, 3, 8, -1000, 18, 55, 66, 90, 500]
+��� 09, 2023 7:27:55 PM JavaHomeworksByKulik.Homework2.JavaHmw2_1 main
+INFO: [0, -200, -15, 3, -1000, 8, 18, 55, 66, 90, 500]
+��� 09, 2023 7:27:55 PM JavaHomeworksByKulik.Homework2.JavaHmw2_1 main
+INFO: [-200, 0, -15, 3, -1000, 8, 18, 55, 66, 90, 500]
+��� 09, 2023 7:27:55 PM JavaHomeworksByKulik.Homework2.JavaHmw2_1 main
+INFO: [-200, -15, 0, 3, -1000, 8, 18, 55, 66, 90, 500]
+��� 09, 2023 7:27:55 PM JavaHomeworksByKulik.Homework2.JavaHmw2_1 main
+INFO: [-200, -15, 0, -1000, 3, 8, 18, 55, 66, 90, 500]
+��� 09, 2023 7:27:55 PM JavaHomeworksByKulik.Homework2.JavaHmw2_1 main
+INFO: [-200, -15, -1000, 0, 3, 8, 18, 55, 66, 90, 500]
+��� 09, 2023 7:27:55 PM JavaHomeworksByKulik.Homework2.JavaHmw2_1 main
+INFO: [-200, -1000, -15, 0, 3, 8, 18, 55, 66, 90, 500]
+��� 09, 2023 7:27:55 PM JavaHomeworksByKulik.Homework2.JavaHmw2_1 main
+INFO: [-1000, -200, -15, 0, 3, 8, 18, 55, 66, 90, 500]
